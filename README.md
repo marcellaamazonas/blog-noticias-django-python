@@ -1,27 +1,22 @@
-<h1 align="center">
-    
-<p align="center">
-<img src= "https://www.phpit.com.br/storage/2017/10/womakers.jpg" width="50%" height="30%"/>
+# Blog de Notícias – Projeto com Framework Django
+### [Squad Hady Lamarr & Margaret Hamilton](https://github.com/Hedy-Lamarr-e-Margaret-Hamilton)
 
-<h1 align="center"><b>Blog de Notícias</b></h1>
-<h3 align="center"><b>Squad Hedy Lamarr & Margaret Hamilton</b></h3>
+O **Blog de Notícias** é uma plataforma desenvolvida utilizando **Python** e o **framework Django** para oferecer aos usuários uma experiência completa de leitura e interação com notícias. O projeto fornece funcionalidades para autores e editores, e permite publicação, navegação, gerenciamento de conteúdo e busca de notícias. O projeto foi elaborado em abril de 2024.
+
+A documentação da organização do grupo pode ser encontrada [aqui](https://docs.google.com/document/d/1lIIk6zF5jKVBLpP89OXqIScTDsRCjyLqBIv6435GKlA/edit). Clique [aqui](https://www.canva.com/design/DAGBw5oO2-k/83OCW3v4koj8nORli-Hneg/edit?utm_content=DAGBw5oO2-k&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) e assista a apresentação.
+
+Código desenvolvido como projeto final para o bootcamp **Back-end Python e Django** da **WoMakersCode**, patrocinado pelo **iFood** e pela **Microsoft**.
 
 ---
 
-<p align="center"> 
-
-O **Blog de Notícias** é uma plataforma desenvolvida utilizando **Python** e o **framework Django** para oferecer aos usuários uma experiência completa de leitura e interação com notícias. 
-
-Este blog foi desenvolvido como projeto final para o **Bootcamp Python e Django** da **WoMakersCode**, patrocinado pelo **iFood** e pela **Microsoft**.
-
-O projeto visa fornecer funcionalidades para autores, editores e leitores, facilitando a publicação, navegação, gerenciamento de conteúdo e busca de notícias. Suas funcionalidades principais são:
+## Características Principais
 
 + **Publicação de Notícias:** Utilizando Django, as autoras têm a capacidade de criar notícias, as editoras podem revisá-las e publicá-las e os visitantes podem fazer comentários, tudo com facilidade.
 + **Navegação de Notícias:** Com o uso do Django, os leitores têm acesso a uma interface intuitiva, com fácil navegação pelas notícias e categorias. Podem explorar as notícias mais recentes ou pesquisar notícias específicas por interesse.
 + **Gerenciamento de Conteúdo:** Utilizando recursos avançados do Django, uma interface de administração está disponível para uma administradora master e editoras gerenciarem o conteúdo do blog. Isso inclui a criação, edição, exclusão, organização e categorização de notícias.
 + **Busca de Notícias:** Implementamos uma barra de pesquisa que utiliza as capacidades do Django para permitir aos leitores procurar notícias por palavras-chave.
-</p>
 
+---
 
 ⚠ Comandos executados apenas a primeira vez ⚠
 
@@ -32,59 +27,30 @@ O projeto visa fornecer funcionalidades para autores, editores e leitores, facil
 〰Criação do ambiente virtual
 
          🟣 python -m venv venv   
-    
-〰Instalação do django
-
-         🟣 pip install django
-
-⚠ Comando executado toda vez que for modificar o projeto ⚠
 
 〰Ativação do ambiente virtual
   
          🟣 scripts/activate.
-         
-〰Caso tenha problema de ativação do ambiente virtual realize os seguintes comandos
-
-        🟣 Get-ExecutionPolicy (Este comando é usado para verificar a política de execução atual no seu ambiente PowerShell)
-
-        🟣 Set-ExecutionPolicy RemoteSigned -Scope Process (Este comando é usado para alterar a política de execução no seu ambiente PowerShell. O parâmetro RemoteSigned permite que scripts baixados sejam executados, desde que estejam assinados por um editor confiáve)
-
-〰Comando para gerenciar o banco de dados
-
-         🟣 python manage.py flush (Este comando irá limpar todo o banco de dados, removendo todas as entradas. Ele pedirá que você confirme a operação digitando ‘yes’)
-         
-         🟣 python manage.py makemigrations (Este comando é usado para criar migrações para as alterações que você fez nos modelos do seu projeto Django)
-         
-         🟣 python manage.py migrate (Este comando aplica as migrações (ou seja, realiza as alterações) ao banco de dados)
 
 〰Comando para rodar um projeto django
 
          🟣 python manage.py runserver
 
----
 
-<h3>Integrantes da Squad:</h3>
+## Ferramentas Utilizadas:
 
-+ Amanda Dias -  [Github](https://github.com/Agdakelda) | [LinkedIn](https://www.linkedin.com/in/amanda-dias-a-ferreira/)
-+ Andréia Ferreira - [Github](https://github.com/andreiamferreira) | [LinkedIn](https://www.linkedin.com/in/andreiamferreira/)
-+ Gabriella Mansur - [Github]() | [LinkedIn]()
-+ Jhenyffer Oliveira  - [Github](https://github.com/JhenyfferOliveira) | [LinkedIn](https://www.linkedin.com/in/jhenyfferoliveira/)
-+ Laís Zahran  - [Github](https://github.com/laisrz) | [LinkedIn](https://www.linkedin.com/in/laisrz)
-+ Laryssa Peçanha - [Github](https://github.com/laryscampark) | [LinkedIn](https://www.linkedin.com/in/laryssape%C3%A7anha/)
-+ Marcella Amazonas - [Github](https://github.com/marcellaamazonas) | [LinkedIn](https://www.linkedin.com/in/marcellaamazonas/)
-+ Mariana Amaral  - [Github](https://github.com/mariana1008) | [LinkedIn](https://www.linkedin.com/in/mariana-santana-amaral-96aa53119/)
-+ Priscila Nakayama  - [Github](https://github.com/PuriNakayama) | [LinkedIn](https://www.linkedin.com/in/priscila-nakayama/)
+<img src= "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg" width="5.8%"/> <img src= "https://static-00.iconduck.com/assets.00/django-icon-1606x2048-lwmw1z73.png" width="5.8%"/> <img src= "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" width="8%"/> <img src= "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="7%"/> <img src= "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" width="5%"/> <img src= "https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" width="7%"/> <img src= "https://upload.wikimedia.org/wikipedia/commons/9/97/Sqlite-square-icon.svg" width="7%"/>
 
 ---
 
-<h3>Ferramentas Utilizadas:</h3>
+## Veja a Aplicação em Funcionamento
 
-<p align="center">
-<img src= "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg" width="5.8%"/>
-<img src= "https://static-00.iconduck.com/assets.00/django-icon-1606x2048-lwmw1z73.png" width="5.8%"/>
-<img src= "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" width="8%"/>
-<img src= "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="7%"/>
-<img src= "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" width="5%"/>
-<img src= "https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" width="8%"/>
-<img src= "https://upload.wikimedia.org/wikipedia/commons/1/19/SQLite_Logo_4.png" width="15%"/>
-</p>
+https://github.com/JhenyfferOliveira/BlogNoticias-Django-WoMakersCode/assets/140458083/a08a869d-58c6-425b-bb23-eef8b9a7642a
+
+
+
+
+
+https://github.com/marcellaamazonas/blog-noticias-django-python/assets/102737277/d12b1736-c4bb-46a6-a9bf-7c3e15025d65
+
+
