@@ -45,8 +45,6 @@ Código desenvolvido como projeto final para o bootcamp **Back-end Python e Djan
 
 ## Veja a Aplicação em Funcionamento
 
-https://github.com/JhenyfferOliveira/BlogNoticias-Django-WoMakersCode/assets/140458083/a08a869d-58c6-425b-bb23-eef8b9a7642a
-
 
 
 
